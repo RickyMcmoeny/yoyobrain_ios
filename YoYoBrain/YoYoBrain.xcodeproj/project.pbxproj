@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1368F4671AAE369500F67788 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368F4661AAE369500F67788 /* HomeViewController.m */; };
+		1368F46A1AAE381F00F67788 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1368F4691AAE381F00F67788 /* HomeViewController.xib */; };
+		1368F46C1AAE3B5300F67788 /* FlashCardData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1368F46B1AAE3B5300F67788 /* FlashCardData.xib */; };
+		1368F46E1AAE3E3600F67788 /* FlashCardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368F46D1AAE3E3600F67788 /* FlashCardData.m */; };
+		1368F4711AAE457F00F67788 /* MyNavigationViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368F4701AAE457F00F67788 /* MyNavigationViewAppDelegate.m */; };
+		1368F4741AAE472400F67788 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368F4731AAE472400F67788 /* FirstViewController.m */; };
+		1368F4771AAE476000F67788 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368F4761AAE476000F67788 /* SecondViewController.m */; };
+		1368F47A1AAE479000F67788 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1368F4791AAE479000F67788 /* LastViewController.m */; };
 		16B1C3C01A91813C00CE3136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B1C3BF1A91813C00CE3136 /* main.m */; };
 		16B1C3C31A91813C00CE3136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B1C3C21A91813C00CE3136 /* AppDelegate.m */; };
 		16B1C3C61A91813C00CE3136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B1C3C51A91813C00CE3136 /* ViewController.m */; };
@@ -27,6 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1368F4661AAE369500F67788 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1368F4681AAE36A200F67788 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1368F4691AAE381F00F67788 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../HomeViewController.xib; sourceTree = "<group>"; };
+		1368F46B1AAE3B5300F67788 /* FlashCardData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlashCardData.xib; sourceTree = "<group>"; };
+		1368F46D1AAE3E3600F67788 /* FlashCardData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardData.m; sourceTree = "<group>"; };
+		1368F46F1AAE3E3F00F67788 /* FlashCardData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashCardData.h; sourceTree = "<group>"; };
+		1368F4701AAE457F00F67788 /* MyNavigationViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationViewAppDelegate.m; sourceTree = "<group>"; };
+		1368F4721AAE458C00F67788 /* MyNavigationViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationViewAppDelegate.h; sourceTree = "<group>"; };
+		1368F4731AAE472400F67788 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1368F4751AAE473000F67788 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1368F4761AAE476000F67788 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1368F4781AAE476C00F67788 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1368F4791AAE479000F67788 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
+		1368F47B1AAE479E00F67788 /* LastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
 		16B1C3BA1A91813C00CE3136 /* YoYoBrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoYoBrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B1C3BE1A91813C00CE3136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B1C3BF1A91813C00CE3136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,9 +107,23 @@
 				16B1C3C21A91813C00CE3136 /* AppDelegate.m */,
 				16B1C3C41A91813C00CE3136 /* ViewController.h */,
 				16B1C3C51A91813C00CE3136 /* ViewController.m */,
+				1368F4731AAE472400F67788 /* FirstViewController.m */,
+				1368F4751AAE473000F67788 /* FirstViewController.h */,
+				1368F4761AAE476000F67788 /* SecondViewController.m */,
+				1368F4781AAE476C00F67788 /* SecondViewController.h */,
+				1368F4791AAE479000F67788 /* LastViewController.m */,
+				1368F47B1AAE479E00F67788 /* LastViewController.h */,
+				1368F4721AAE458C00F67788 /* MyNavigationViewAppDelegate.h */,
+				1368F4701AAE457F00F67788 /* MyNavigationViewAppDelegate.m */,
+				1368F4681AAE36A200F67788 /* HomeViewController.h */,
+				1368F4661AAE369500F67788 /* HomeViewController.m */,
+				1368F46F1AAE3E3F00F67788 /* FlashCardData.h */,
+				1368F46D1AAE3E3600F67788 /* FlashCardData.m */,
 				16B1C3C71A91813C00CE3136 /* Main.storyboard */,
-				16B1C3CA1A91813C00CE3136 /* Images.xcassets */,
+				1368F4691AAE381F00F67788 /* HomeViewController.xib */,
+				1368F46B1AAE3B5300F67788 /* FlashCardData.xib */,
 				16B1C3CC1A91813C00CE3136 /* LaunchScreen.xib */,
+				16B1C3CA1A91813C00CE3136 /* Images.xcassets */,
 				16B1C3BD1A91813C00CE3136 /* Supporting Files */,
 			);
 			path = YoYoBrain;
@@ -202,6 +238,8 @@
 				16B1C3C91A91813C00CE3136 /* Main.storyboard in Resources */,
 				16B1C3CE1A91813C00CE3136 /* LaunchScreen.xib in Resources */,
 				16B1C3CB1A91813C00CE3136 /* Images.xcassets in Resources */,
+				1368F46C1AAE3B5300F67788 /* FlashCardData.xib in Resources */,
+				1368F46A1AAE381F00F67788 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +258,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B1C3C61A91813C00CE3136 /* ViewController.m in Sources */,
+				1368F47A1AAE479000F67788 /* LastViewController.m in Sources */,
 				16B1C3C31A91813C00CE3136 /* AppDelegate.m in Sources */,
+				1368F4741AAE472400F67788 /* FirstViewController.m in Sources */,
 				16B1C3C01A91813C00CE3136 /* main.m in Sources */,
+				1368F4771AAE476000F67788 /* SecondViewController.m in Sources */,
+				1368F46E1AAE3E3600F67788 /* FlashCardData.m in Sources */,
+				1368F4671AAE369500F67788 /* HomeViewController.m in Sources */,
+				1368F4711AAE457F00F67788 /* MyNavigationViewAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +456,7 @@
 				16B1C3DF1A91813D00CE3136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B1C3E01A91813D00CE3136 /* Build configuration list for PBXNativeTarget "YoYoBrainTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +465,7 @@
 				16B1C3E21A91813D00CE3136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
